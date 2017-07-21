@@ -1,0 +1,22 @@
+#poststuff .seo-tags { border-collapse:collapse; }
+#poststuff .seo-tags td, #poststuff .seo-tags th { border: 1px solid black; padding: 0 10px;}
+#poststuff .seo-tags tbody th { font-variant:small-caps; text-transform:capitalize; padding: 0 40px 0 10px; background-color: #DDD; text-align:left }
+#poststuff p.save {
+    text-align: left; margin: 10px 0;
+}
+#poststuff .note {
+    padding-left: 20px;
+}
+#poststuff .nav-tab-wrapper {
+   padding-bottom: 0;
+}
+
+#normal-sortables .postbox {
+    border-top: 0;
+}
+
+#poststuff .nav-tab.nav-tab-active, #poststuff .nav-tab:hover  {
+    background-color: #FFF;
+    border-bottom-color: #FFF;
+}
+

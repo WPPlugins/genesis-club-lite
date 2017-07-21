@@ -1,0 +1,33 @@
+
+
+ .diy-fieldset.families {
+    max-width: 500px;   
+ } 
+ 
+.diy-fieldset.families li  {
+      display: inline;
+      margin: 0;
+}
+
+.diy-fieldset.subsets, .diy-fieldset.effects {
+    display: block;
+}
+
+.diy-fieldset.subsets ul li, .diy-fieldset.effects ul li {
+   display: block;
+}
+
+.diy-fieldset.subsets ul, .diy-fieldset.effects ul{
+    column-count: 5;
+    -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */    
+    column-width: 5em;
+}
+
+@media only screen and (max-width: 1023px) {
+    .diy-fieldset.subsets ul, .diy-fieldset.effects ul  {
+    column-count: 2;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */    
+   }
+}

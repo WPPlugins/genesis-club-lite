@@ -1,0 +1,165 @@
+
+.genesis-club-posts li a.aligncenter {
+      text-align: center;
+}
+
+.genesis-club-posts li a {
+   text-decoration: none;
+   margin-bottom: 0;
+   display:block;
+}
+
+.genesis-club-posts li a:hover {
+   text-decoration: underline;
+}
+
+.genesis-club-posts .entry-content > span.alignleft {
+   margin-right:10px;
+}
+
+.genesis-club-posts .entry-content > span.alignright {
+   margin-left:10px;
+}
+
+.genesis-club-posts .entry .aligncenter,
+.genesis-club-posts .entry-content .aligncenter {
+   display: block;
+   text-align:center;
+   margin: 10px auto;
+}
+
+.genesis-club-posts .entry-content .alignjustify {
+   text-align: justify;
+}
+
+.genesis-club-posts .more-link{
+   margin-left: 10px;
+   display: inline;
+   vertical-align: bottom;
+}
+
+.genesis-club-posts .more-link.centered {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width:60%;
+    max-width:200px;
+}
+
+.genesis-club-posts .more-link.silver-button {
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: silver;
+    color: white;
+}
+
+.genesis-club-posts .more-link.silver-button:hover {
+    text-decoration: none;
+    background-color: LightGray;
+    color: white;
+}
+
+.sidebar .genesis-club-posts.featured-content.widget {
+   padding: 10px;
+}
+
+.sidebar .genesis-club-posts .entry-title {
+    font-size: 1.5em;
+}
+
+.sidebar .genesis-club-posts .entry-content {
+    font-size: 1.0em;
+}
+
+.genesis-club-posts.featured-content.widget {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.genesis-club-posts.featured-content.widget.halves,
+.genesis-club-posts.featured-content.widget.thirds,
+.genesis-club-posts.featured-content.widget.fourths {
+   float: none;   
+   display: block;
+   margin: 0px auto;   
+}
+
+.genesis-club-posts .entry {
+   vertical-align: top;
+   margin: 15px 0;
+   margin: 1.5rem 0;
+}
+
+.genesis-club-posts .entry-header::after {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+.genesis-club-posts.halves .entry{
+    width: 45%;
+    display:inline-block;
+    margin-right: 5% ;
+}
+.genesis-club-posts.thirds .entry {
+    width: 31%;
+    display:inline-block;
+    margin-right: 3% ;   
+}
+.genesis-club-posts.fourths .entry {
+    width: 22%;
+    display:inline-block;
+    margin-right: 3%;   
+}
+
+.genesis-club-posts.halves .entry:nth-of-type(2n+1),
+.genesis-club-posts.thirds .entry:nth-of-type(3n+1),
+.genesis-club-posts.fourths .entry:nth-of-type(4n+1) {
+	clear: left;
+	margin-left: 0;
+}
+.genesis-club-posts.halves .entry:nth-of-type(2n),
+.genesis-club-posts.thirds .entry:nth-of-type(3n),
+.genesis-club-posts.fourths .entry:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  	.genesis-club-posts.fourths .entry {
+    	width: 45%; 
+  	}
+}
+
+@media only screen and (max-width: 960px) {
+  	
+	.genesis-club-posts.fourths .entry:nth-of-type(2n) {
+		margin-right: 0;
+	}
+
+	.genesis-club-posts.fourths .entry:nth-of-type(2n+1) {
+		clear: left;
+		margin-left: 0;
+	}
+ 	
+}
+
+@media only screen and (max-width: 720px) {
+  .genesis-club-posts.halves .entry,
+  .genesis-club-posts.thirds .entry {
+    	display: block; 
+    	width: auto;
+    	margin-right: 0;
+  } 
+}
+
+@media only screen and (max-width: 640px) {
+ 	.genesis-club-posts.fourths .entry {
+    	display: block; 
+    	width: auto;
+    	margin-right: 0;
+    	padding: 10px;
+  	}
+}

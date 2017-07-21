@@ -1,0 +1,7 @@
+h2.title i { padding-right: 0.5em; font-size: 1.25em; }
+textarea, input { max-width: 90%; }
+p.save { width: 97%; text-align: right; }
+p.bigger { font-size: larger; font-weight: bold; }
+img.dashed-border { padding: 10px; border: 1px dashed silver; max-width: 100%; } 
+.genesis-club-news-feed-item { display: inline-block; vertical-align:top; padding: 10px; }
+.genesis-club-news-feed-item div img { max-height : 200px; width: auto }

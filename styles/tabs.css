@@ -1,0 +1,48 @@
+.genesis-club-metabox .metabox-tabs { display: inline-block; margin:0 0 -6px; padding: 0; color: #000000;}
+.genesis-club-metabox .metabox-tabs li {list-style: none; display: inline; font-size: 11px; }
+.genesis-club-metabox .metabox-tabs li.link { margin-left: 4px; }
+.genesis-club-metabox .metabox-tabs li.link a { text-decoration: none; }
+.genesis-club-metabox .metabox-tabs li.link a:hover { text-decoration: underline; }
+.genesis-club-metabox .metabox-tabs li.tab.hidden { display: none; background-color: gray}
+.genesis-club-metabox .metabox-tabs li.tab a.has_error { background-color: red; color: white; }
+.genesis-club-metabox .metabox-tabs li a:focus { outline: none; box-shadow:none; }
+.genesis-club-metabox .metabox-tabs li.tab a { 
+	display: block; float: left; margin-right: 4px; padding: 5px 12px;
+	font-weight: bold; text-decoration: none; zoom: 1; outline: none;
+	border-radius: 2px 2px 0 0; -webkit-border-radius: 2px 2px 0 0; -moz-border-radius: 2px 2px 0 0; 
+}
+
+.genesis-club-metabox .metabox-tabs li a.active { 
+  color: #0096dd;
+  background-color: #FCFCFC;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+}
+
+.genesis-club-metabox .metabox-tabs li.tab a:hover { 
+   color: #1166EE;
+}
+
+.genesis-club-metabox .metabox-content {
+	background: url(images/genesis-club-brand.png) right bottom no-repeat,  linear-gradient(to bottom, #FCFCFC,#EEEEEE); 
+	min-height: 60px;
+	padding-bottom:50px;
+    border: 1px solid silver;	
+}
+
+.genesis-club-metabox div.tab-content { 
+	padding: 10px 15px; 
+	opacity: 0.9;
+}
+
+.genesis-club-metabox .form-table th, 
+.genesis-club-metabox .form-table td {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 640px) {
+ .genesis-club-metabox .metabox-tabs li a {
+    font-size: smaller;
+ }
+}

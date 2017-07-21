@@ -1,0 +1,92 @@
+/* Genesis Club Accordion */
+.accordion-container { margin: 0 !important; border: 0 !important; padding: 0 !important; }
+
+.accordion-container > p { padding: 0.5rem 1.5rem; }
+
+header.accordion-header,h2.accordion-header, h3.accordion-header {
+margin: 0;
+padding: 0.5rem 1.5rem;
+border: none;
+border-top-width: 0;
+}
+
+header.accordion-header a, h2.accordion-header a, h3.accordion-header {
+outline: none;
+font-size: 16px;
+font-size: 1.6rem;
+text-decoration: none;
+}
+
+.accordion-header:hover {
+	cursor: pointer;
+}
+
+.accordion-header:first-child, .accordion-header a:first-child {
+border-top-width: 1px;
+}
+
+.accordion-content {
+margin: 0!important;
+padding: 15px;
+padding: 1.5rem;
+border:  1px solid #EAEAEA;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.accordion-content li {
+margin-left: 20px;
+margin-left: 2rem;
+}
+
+/* accordion color schemes */
+
+header.accordion-header.accordion-default-colors,h2.accordion-header.accordion-default-colors, h3.accordion-header.accordion-default-colors {
+background-color: #f5f5f5;
+border: 1px solid #ececec;
+}
+
+header.accordion-header.transparent,h2.accordion-header.transparent, h3.accordion-header.transparent {
+background-color: transparent;
+border: 0;
+}
+
+header.accordion-header.accordion-default-colors a, h2.accordion-header.accordion-default-colors a, h3.accordion-header.accordion-default-colors { 
+color: #808080;
+}
+
+.accordion-header.arrows:before {
+   content: " ";
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid black;
+   float:right;
+   margin-top: 10px;
+   vertical-align:top;
+}
+
+.accordion-header.accordion-selected.arrows:before {
+   border-top: none;
+	border-bottom: 5px solid black;
+}
+
+.accordion-header.accordion-default-colors:hover,
+.accordion-header.accordion-default-colors.selected {
+	color: #303030;
+	background-color: #EEE;
+}
+
+.accordion-header.transparent:hover {
+	text-decoration: underline;
+}
+
+.accordion-content.accordion-border {
+color: #404040;
+background-color: whitesmoke;
+border: 1px solid silver;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
